@@ -11,6 +11,10 @@ h1 {
     top: -80px;
     font-size: 50px;
 }
+h2{
+    position: relative;
+    top: -130px;
+}
 .rapper  {
     display: grid;
     grid-template-columns: 100px 100px 100px;
