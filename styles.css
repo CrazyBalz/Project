@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    height: 100vh;
+}
+h1 {
+    position:relative;
+    top: -80px;
+    font-size: 50px;
+}
+.rapper  {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 15px;
+}
+.rapper div {
+    border-radius: 27px;
+    cursor: pointer;
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
