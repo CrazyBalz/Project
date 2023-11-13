@@ -1,5 +1,4 @@
 let turn = "x";
-let state = [];
 
 function getBlock(blockId) {
     return document.getElementById(blockId);
